@@ -1,0 +1,16 @@
+@use "../../assets/sass/variables" as *;
+
+.button {
+   border: none;
+   border-radius: 100%;
+   min-width: 50px;
+   min-height: 50px;
+   text-align: center;
+   font-size: 30px;
+   &.button--minus{
+      background-color: $color-minus;
+   }
+   &.button--plus{
+      background-color: $color-plus;
+   }
+}
