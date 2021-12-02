@@ -10,15 +10,24 @@ const CounterTile =()=>{
     }
      
     const handleDecrement = () => {
+        if (counter===0){
+            setCounter(0)
+        }else{
        setCounter(counter-1)
+    }
     }
 
      return (<div className="tile__counter">
          <p>Counter</p>
-         <p className="tile__counter-nubmer">0</p>
-         <Button onClick={handleDecrement} buttonText="-" isMinus={true} />
+         <p className="tile__counter-nubmer">{counter}</p>
+         <div onClick={handleDecrement}>
+         <Button  buttonText="-" isMinus={true} />
+         </div>
+         <div onClick={handleIncrement}>
          <Button onClick={handleIncrement}  buttonText="+" isMinus={false} />
-     </div>)
+         </div>
+     </div>
+     )
 };
 
 export default CounterTile

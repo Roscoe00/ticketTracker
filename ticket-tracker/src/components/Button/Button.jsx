@@ -10,7 +10,7 @@ const Button =(props)=>{
       buttonStyles +=" button--plus"
    }
  
-   return <div className={buttonStyles}>{props.buttonText}</div>
+   return <button className={buttonStyles}>{props.buttonText}</button>
 };
 
 export default Button
