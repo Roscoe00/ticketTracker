@@ -18,8 +18,7 @@ const CounterTile =()=>{
     }
 
      return (<div className="tile__counter">
-         <p>Counter</p>
-         <p className="tile__counter-nubmer">{counter}</p>
+         <p className="tile__counter-nubmer">Counter: {counter}</p>
          <div onClick={handleDecrement}>
          <Button  buttonText="-" isMinus={true} />
          </div>

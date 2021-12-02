@@ -2,17 +2,16 @@ import "./UserTile.scss";
 import CounterTile from "../CounterTile/CounterTile"
 
 const UserTile = props =>{
-     const {title,userInfo} = props;
-     console.log(userInfo)
-const userTilesJSX = userInfo.map((user)=>(
-     <div key={user.id}>
-     <p >Name: {user.name} </p>
-          <p>Role: {user.role}</p>
-          <CounterTile />
-     </div>
-));
+     const {userName,userRole} = props;
+console.log(userName)
+console.log(userRole)
+
      return (
-          <span>{userTilesJSX}</span>
+          <div>
+     <p>Name: {userName} </p>
+          <p>Role: {userRole}</p>
+          <CounterTile/>
+     </div>
      )
 };
 
