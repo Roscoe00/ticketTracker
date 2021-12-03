@@ -1,0 +1,17 @@
+@use "../../assets/sass/variables" as *;
+
+.tile {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.5rem;
+   & p {
+      display: inline-block;
+   }
+   &__user {
+      border-bottom: 5px solid black;
+      width:250px;
+      text-align: center;
+      padding-bottom: 5px;
+   }
+}

@@ -1,0 +1,13 @@
+@use "../../assets/sass/variables" as *;
+
+
+.completed-tile {
+   display: inline-block;
+   margin-top: 6rem;
+   border: 1rem solid black ;
+   border-radius: 100%;
+   width:220px;
+   height:200px;
+   padding:1rem;
+   background-color: $ticket-color;
+}

@@ -7,10 +7,15 @@
    min-height: 50px;
    text-align: center;
    font-size: 30px;
-   &.button--minus{
-      background-color: $color-minus;
-   }
-   &.button--plus{
-      background-color: $color-plus;
-   }
+   background-color: black;
+   color:white;
+}
+
+button:hover{
+   border: 5px solid $navBackground-color;
+}
+
+button:active{
+   border: 5px solid $navBackground-color;
+   background-color: $button-active;
 }

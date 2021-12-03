@@ -1,1 +1,20 @@
 @use "../../assets/sass/_variables.scss" as *;
+
+.tile__counter{
+   display: inline-grid;
+   grid-template-columns: 6rem 6rem;
+   text-align: center;
+   gap:2px;
+   &--number{
+      grid-column: 1 / span 2;
+      text-align: center;
+      display:inline-block;
+      min-width: 10rem;
+      padding: 0.5rem 1rem;
+      background-color:$display-color;
+      color: $background-color;
+   }
+   &--button{
+      display:inline-block;
+   }
+}
