@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ticketTracker/static/css/main.e0246762.chunk.css",
+    "main.js": "/ticketTracker/static/js/main.27094d45.chunk.js",
+    "main.js.map": "/ticketTracker/static/js/main.27094d45.chunk.js.map",
+    "runtime-main.js": "/ticketTracker/static/js/runtime-main.e59a92a7.js",
+    "runtime-main.js.map": "/ticketTracker/static/js/runtime-main.e59a92a7.js.map",
+    "static/js/2.a37f3c43.chunk.js": "/ticketTracker/static/js/2.a37f3c43.chunk.js",
+    "static/js/2.a37f3c43.chunk.js.map": "/ticketTracker/static/js/2.a37f3c43.chunk.js.map",
+    "static/js/3.66979641.chunk.js": "/ticketTracker/static/js/3.66979641.chunk.js",
+    "static/js/3.66979641.chunk.js.map": "/ticketTracker/static/js/3.66979641.chunk.js.map",
+    "index.html": "/ticketTracker/index.html",
+    "static/css/main.e0246762.chunk.css.map": "/ticketTracker/static/css/main.e0246762.chunk.css.map",
+    "static/js/2.a37f3c43.chunk.js.LICENSE.txt": "/ticketTracker/static/js/2.a37f3c43.chunk.js.LICENSE.txt",
+    "static/media/bee_logo.d4326327.PNG": "/ticketTracker/static/media/bee_logo.d4326327.PNG",
+    "static/media/App.scss": "/ticketTracker/static/media/hexagon.1b771101.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e59a92a7.js",
+    "static/js/2.a37f3c43.chunk.js",
+    "static/css/main.e0246762.chunk.css",
+    "static/js/main.27094d45.chunk.js"
+  ]
+}
